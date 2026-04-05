@@ -1,0 +1,159 @@
+.intro{
+    padding: 90px;
+    overflow: hidden;
+}
+
+.quote{
+    background-color:#111;
+    color:white;
+    width:550px;
+    padding:25px;
+    border-radius:30px;
+}
+
+.profile{
+    width:350px;
+    border-radius:167px;
+    float: right;
+}
+.aboutbox {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    clear: both;        
+    margin-left: 90px; 
+}
+
+.arrow{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 60%;
+    margin-left: 10px;
+}
+
+.profile-card .profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: none;        
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.card-name {
+    color: white;
+    font-size: 18px;
+    margin: 0 0 4px;
+}
+
+.card-title {
+    color: #aaa;
+    font-size: 13px;
+    margin: 0 0 16px;
+}
+
+.social-icons {
+    
+    justify-content: center;
+    gap: 16px;
+}
+
+
+
+.social-icons a:hover {
+    background-color: #000000;
+}
+
+.profile-card {
+    float: right;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #444;
+}
+
+
+.social-icons a {
+    border-radius: 8px;
+    padding: 9px;
+    display: inline-block;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+}
+
+.footer-name {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-linkedin {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    color: #555;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+@media (max-width: 600px) {
+
+    .profile-card {
+        float: none;
+        margin: 0 auto 24px;
+    }
+
+    .introtext {
+        float: none;
+        width: 100%;
+    }
+
+    .introtext h1 {
+        font-size: 38px;
+    }
+
+    .intro {
+        padding: 30px 20px;
+    }
+
+    .aboutbox {
+        margin-left: 20px;
+    }
+
+    .cont {
+        float: none;
+        display: inline-block;
+        font-size: 13px;
+        padding: 6px 10px;
+        margin: 4px 2px;
+    }
+
+    .logo {
+        float: none;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .navi {
+        height: auto;
+    }
+}
